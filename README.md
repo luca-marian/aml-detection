@@ -12,7 +12,8 @@ Utilizing a dataset of transactions, participants will create models to identify
 
 Data can be downloaded from [here.](https://drive.google.com/file/d/1vRNPIhFbI9aeOzP4QTausZv3xX8GJbOO/view?usp=drive_link)
 
-```
-# In code
+## Env
 
+```
+./create_env.sh
 ```
