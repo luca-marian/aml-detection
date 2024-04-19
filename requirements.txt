@@ -1,3 +1,4 @@
+pyglet
 wget
 black
 flake8
