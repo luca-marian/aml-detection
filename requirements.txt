@@ -1,5 +1,6 @@
 wget
-pyglet
+black
+flake8
 requests
 pandas
 numpy
