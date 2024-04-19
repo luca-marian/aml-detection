@@ -14,7 +14,7 @@ conda create --name $ENV_NAME python=$PYTHON_VERSION -y
 
 # Activate the new environment
 echo "Activating the new environment..."
-conda activate $ENV_NAME
+source activate $ENV_NAME
 
 # Install dependencies
 # Check if the requirements.txt file exists and install dependencies
@@ -25,5 +25,7 @@ else
     echo "Error: $REQUIREMENTS_FILE does not exist."
     exit 1
 fi
+
+python script.py
 
 echo "Environment setup complete. $ENV_NAME is ready to use!"
