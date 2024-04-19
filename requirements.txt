@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+xgboost
+torch 
+torchvision 
+torchaudio
+tqdm
+seaborn
+matplotlib
+networkx
+transformers
+jupyter
+ipykernel
+notebook
